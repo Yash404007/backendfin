@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+
+# Virtual environment
+venv/
+ENV/
+env/
+venv.bak/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Virtual environment files inside app/ (do not commit the venv shipped in workspace)
+app/Include/
+app/Lib/
+app/Scripts/
+app/pyvenv.cfg
+app/__pycache__/
+
+# Docker
+.dockerignore
+
